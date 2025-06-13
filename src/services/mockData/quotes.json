@@ -1,0 +1,82 @@
+[
+  {
+    "id": "quote_1",
+    "taskId": "task_1",
+    "proId": "pro_1",
+    "price": 180,
+    "breakdown": {
+      "labor": 120,
+      "materials": 60,
+      "travel": 0
+    },
+    "validUntil": "2024-01-20T10:30:00Z",
+    "accepted": true,
+    "description": "I can fix your kitchen faucet leak and improve the water pressure. The issue is likely worn-out O-rings and a clogged aerator. I have the necessary parts in my van.",
+    "estimatedDuration": "2-3 hours",
+    "createdAt": "2024-01-15T11:00:00Z"
+  },
+  {
+    "id": "quote_2",
+    "taskId": "task_2",
+    "proId": "pro_2",
+    "price": 320,
+    "breakdown": {
+      "labor": 220,
+      "materials": 100,
+      "travel": 0
+    },
+    "validUntil": "2024-01-21T14:20:00Z",
+    "accepted": true,
+    "description": "Power surge damage requires testing all circuits and likely replacing some outlets and possibly a breaker. I'll bring my testing equipment to diagnose properly.",
+    "estimatedDuration": "3-4 hours",
+    "createdAt": "2024-01-14T15:00:00Z"
+  },
+  {
+    "id": "quote_3",
+    "taskId": "task_3",
+    "proId": "pro_3",
+    "price": 450,
+    "breakdown": {
+      "labor": 280,
+      "materials": 170,
+      "travel": 0
+    },
+    "validUntil": "2024-01-20T09:15:00Z",
+    "accepted": false,
+    "description": "Custom built-in shelves with quality materials. I'll provide a detailed design sketch first and use premium wood with professional finish.",
+    "estimatedDuration": "1-2 days",
+    "createdAt": "2024-01-13T10:30:00Z"
+  },
+  {
+    "id": "quote_4",
+    "taskId": "task_4",
+    "proId": "pro_3",
+    "price": 220,
+    "breakdown": {
+      "labor": 140,
+      "materials": 80,
+      "travel": 0
+    },
+    "validUntil": "2024-01-19T16:45:00Z",
+    "accepted": true,
+    "description": "Bathroom painting with proper preparation including primer for water stains. Will use moisture-resistant paint suitable for bathrooms.",
+    "estimatedDuration": "4-6 hours",
+    "createdAt": "2024-01-12T17:15:00Z"
+  },
+  {
+    "id": "quote_5",
+    "taskId": "task_5",
+    "proId": "pro_4",
+    "price": 275,
+    "breakdown": {
+      "labor": 175,
+      "materials": 100,
+      "travel": 0
+    },
+    "validUntil": "2024-01-18T11:30:00Z",
+    "accepted": true,
+    "description": "Samsung front-loader repair - likely needs drain pump replacement and belt adjustment. I stock Samsung parts and can complete today.",
+    "estimatedDuration": "2-3 hours",
+    "createdAt": "2024-01-11T12:00:00Z"
+  }
+]

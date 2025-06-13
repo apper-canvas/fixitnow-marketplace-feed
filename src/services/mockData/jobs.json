@@ -1,0 +1,62 @@
+[
+  {
+    "id": "job_1",
+    "taskId": "task_1",
+    "proId": "pro_1",
+    "startTime": "2024-01-16T09:00:00Z",
+    "endTime": null,
+    "currentLocation": {
+      "lat": 40.7128,
+      "lng": -74.0060
+    },
+    "status": "accepted",
+    "paymentStatus": "depositPaid",
+    "notes": "Confirmed appointment for 9 AM. Will bring all necessary parts and tools.",
+    "createdAt": "2024-01-15T12:00:00Z"
+  },
+  {
+    "id": "job_2",
+    "taskId": "task_2",
+    "proId": "pro_2",
+    "startTime": "2024-01-15T14:00:00Z",
+    "endTime": null,
+    "currentLocation": {
+      "lat": 40.7589,
+      "lng": -73.9851
+    },
+    "status": "working",
+    "paymentStatus": "depositPaid",
+    "notes": "Started work on electrical outlets. Found issues with main circuit breaker as well. Customer approved additional work.",
+    "createdAt": "2024-01-14T16:00:00Z"
+  },
+  {
+    "id": "job_3",
+    "taskId": "task_4",
+    "proId": "pro_3",
+    "startTime": "2024-01-13T10:00:00Z",
+    "endTime": "2024-01-13T16:30:00Z",
+    "currentLocation": {
+      "lat": 40.7128,
+      "lng": -74.0060
+    },
+    "status": "completed",
+    "paymentStatus": "released",
+    "notes": "Bathroom painting completed successfully. Used moisture-resistant paint and primer. Customer very satisfied with results.",
+    "createdAt": "1/12/2024 6:00:00 PMZ"
+  },
+  {
+    "id": "job_4",
+    "taskId": "task_5",
+    "proId": "pro_4",
+    "startTime": "2024-01-12T13:00:00Z",
+    "endTime": null,
+    "currentLocation": {
+      "lat": 40.7282,
+      "lng": -73.7949
+    },
+    "status": "enRoute",
+    "paymentStatus": "depositPaid",
+    "notes": "On the way to repair Samsung washing machine. ETA 15 minutes. Have replacement parts ready.",
+    "createdAt": "2024-01-11T13:30:00Z"
+  }
+]

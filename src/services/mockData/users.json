@@ -1,0 +1,155 @@
+[
+  {
+    "id": "user_1",
+    "name": "John Smith",
+    "email": "john.smith@example.com",
+    "phone": "+1 (555) 123-4567",
+    "type": "customer",
+    "location": {
+      "lat": 40.7128,
+      "lng": -74.0060
+    },
+    "rating": 4.8,
+    "completedJobs": 12,
+    "verificationStatus": {
+      "verified": true,
+      "backgroundCheck": true,
+      "licenseVerified": false
+    },
+    "avatarColor": "#3B82F6"
+  },
+  {
+    "id": "user_2",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@example.com",
+    "phone": "+1 (555) 234-5678",
+    "type": "customer",
+    "location": {
+      "lat": 40.7589,
+      "lng": -73.9851
+    },
+    "rating": 4.9,
+    "completedJobs": 8,
+    "verificationStatus": {
+      "verified": true,
+      "backgroundCheck": true,
+      "licenseVerified": false
+    },
+    "avatarColor": "#10B981"
+  },
+  {
+    "id": "pro_1",
+    "name": "Mike Rodriguez",
+    "email": "mike.rodriguez@fixpro.com",
+    "phone": "+1 (555) 345-6789",
+    "type": "pro",
+    "location": {
+      "lat": 40.7128,
+      "lng": -74.0060
+    },
+    "rating": 4.9,
+    "completedJobs": 127,
+    "skills": ["plumbing", "general"],
+    "availability": "available",
+    "distance": 2.1,
+    "bio": "Licensed plumber with 8+ years of experience. Specializing in residential repairs, leak detection, and pipe installation. Available for emergency calls.",
+    "verificationStatus": {
+      "verified": true,
+      "backgroundCheck": true,
+      "licenseVerified": true
+    },
+    "avatarColor": "#F59E0B"
+  },
+  {
+    "id": "pro_2",
+    "name": "Jennifer Chen",
+    "email": "jennifer.chen@sparkelectrics.com",
+    "phone": "+1 (555) 456-7890",
+    "type": "pro",
+    "location": {
+      "lat": 40.7589,
+      "lng": -73.9851
+    },
+    "rating": 4.8,
+    "completedJobs": 89,
+    "skills": ["electrical", "general"],
+    "availability": "today",
+    "distance": 3.5,
+    "bio": "Master electrician with expertise in residential and commercial electrical systems. Safety-focused with competitive pricing and quick response times.",
+    "verificationStatus": {
+      "verified": true,
+      "backgroundCheck": true,
+      "licenseVerified": true
+    },
+    "avatarColor": "#8B5CF6"
+  },
+  {
+    "id": "pro_3",
+    "name": "David Thompson",
+    "email": "david.thompson@woodworks.com",
+    "phone": "+1 (555) 567-8901",
+    "type": "pro",
+    "location": {
+      "lat": 40.7831,
+      "lng": -73.9712
+    },
+    "rating": 4.7,
+    "completedJobs": 156,
+    "skills": ["carpentry", "painting", "general"],
+    "availability": "thisWeek",
+    "distance": 4.2,
+    "bio": "Experienced carpenter and painter specializing in custom woodwork, furniture repair, and interior painting. Attention to detail and quality craftsmanship guaranteed.",
+    "verificationStatus": {
+      "verified": true,
+      "backgroundCheck": true,
+      "licenseVerified": true
+    },
+    "avatarColor": "#EF4444"
+  },
+  {
+    "id": "pro_4",
+    "name": "Lisa Park",
+    "email": "lisa.park@appliancefix.com",
+    "phone": "+1 (555) 678-9012",
+    "type": "pro",
+    "location": {
+      "lat": 40.7282,
+      "lng": -73.7949
+    },
+    "rating": 4.6,
+    "completedJobs": 78,
+    "skills": ["appliance", "general"],
+    "availability": "available",
+    "distance": 5.8,
+    "bio": "Certified appliance repair technician with expertise in all major brands. Quick diagnostics, fair pricing, and warranty on all repairs.",
+    "verificationStatus": {
+      "verified": true,
+      "backgroundCheck": true,
+      "licenseVerified": true
+    },
+    "avatarColor": "#06B6D4"
+  },
+  {
+    "id": "pro_5",
+    "name": "Robert Wilson",
+    "email": "robert.wilson@handy.com",
+    "phone": "+1 (555) 789-0123",
+    "type": "pro",
+    "location": {
+      "lat": 40.6892,
+      "lng": -74.0445
+    },
+    "rating": 4.5,
+    "completedJobs": 203,
+    "skills": ["general", "plumbing", "electrical", "carpentry"],
+    "availability": "available",
+    "distance": 1.8,
+    "bio": "Multi-skilled handyman with over 10 years of experience. Handle most home repairs and maintenance tasks. Reliable, punctual, and reasonably priced.",
+    "verificationStatus": {
+      "verified": true,
+      "backgroundCheck": true,
+      "licenseVerified": false
+    },
+    "avatarColor": "#F97316"
+  }
+]

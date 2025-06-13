@@ -1,0 +1,116 @@
+[
+  {
+    "id": "task_1",
+    "customerId": "user_1",
+    "category": "plumbing",
+    "description": "Kitchen faucet is leaking constantly. Water pressure is also very low. Need someone to fix this as soon as possible.",
+    "photos": [],
+    "urgency": "today",
+    "aiClassification": {
+      "confidence": 95,
+      "complexity": "medium",
+      "estimatedDuration": "2-3 hours",
+      "materialsNeeded": ["faucet parts", "pipe sealant"]
+    },
+    "estimatedPrice": 180,
+    "location": {
+      "lat": 40.7128,
+      "lng": -74.0060,
+      "address": "123 Main St, New York, NY 10001"
+    },
+    "status": "matched",
+    "proId": "pro_1",
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "task_2",
+    "customerId": "user_2",
+    "category": "electrical",
+    "description": "Several outlets in the living room stopped working after a power surge. Need an electrician to diagnose and fix the issue.",
+    "photos": [],
+    "urgency": "thisWeek",
+    "aiClassification": {
+      "confidence": 88,
+      "complexity": "high",
+      "estimatedDuration": "3-4 hours",
+      "materialsNeeded": ["circuit breaker", "electrical outlets", "wiring"]
+    },
+    "estimatedPrice": 320,
+    "location": {
+      "lat": 40.7589,
+      "lng": -73.9851,
+      "address": "456 Oak Ave, New York, NY 10002"
+    },
+    "status": "inProgress",
+    "proId": "pro_2",
+    "createdAt": "2024-01-14T14:20:00Z"
+  },
+  {
+    "id": "task_3",
+    "customerId": "user_3",
+    "category": "carpentry",
+    "description": "Need custom built-in shelves for my home office. I have specific dimensions and would like quality wood construction.",
+    "photos": [],
+    "urgency": "flexible",
+    "aiClassification": {
+      "confidence": 92,
+      "complexity": "high",
+      "estimatedDuration": "1-2 days",
+      "materialsNeeded": ["wood boards", "brackets", "screws", "wood stain"]
+    },
+    "estimatedPrice": 450,
+    "location": {
+      "lat": 40.7831,
+      "lng": -73.9712,
+      "address": "789 Pine St, New York, NY 10003"
+    },
+    "status": "posted",
+    "createdAt": "2024-01-13T09:15:00Z"
+  },
+  {
+    "id": "task_4",
+    "customerId": "user_1",
+    "category": "painting",
+    "description": "Bathroom needs a fresh coat of paint. Previous paint is peeling and there are some water stains on the ceiling.",
+    "photos": [],
+    "urgency": "today",
+    "aiClassification": {
+      "confidence": 90,
+      "complexity": "medium",
+      "estimatedDuration": "4-6 hours",
+      "materialsNeeded": ["primer", "paint", "brushes", "rollers", "drop cloths"]
+    },
+    "estimatedPrice": 220,
+    "location": {
+      "lat": 40.7128,
+      "lng": -74.0060,
+      "address": "123 Main St, New York, NY 10001"
+    },
+    "status": "completed",
+    "proId": "pro_3",
+    "createdAt": "2024-01-12T16:45:00Z"
+  },
+  {
+    "id": "task_5",
+    "customerId": "user_4",
+    "category": "appliance",
+    "description": "Washing machine is making loud noises during the spin cycle and not draining properly. It's a front-loading Samsung model.",
+    "photos": [],
+    "urgency": "immediate",
+    "aiClassification": {
+      "confidence": 85,
+      "complexity": "medium",
+      "estimatedDuration": "2-3 hours",
+      "materialsNeeded": ["drain pump", "belt", "bearings"]
+    },
+    "estimatedPrice": 275,
+    "location": {
+      "lat": 40.7282,
+      "lng": -73.7949,
+      "address": "321 Elm St, Queens, NY 11375"
+    },
+    "status": "matched",
+    "proId": "pro_4",
+    "createdAt": "2024-01-11T11:30:00Z"
+  }
+]
