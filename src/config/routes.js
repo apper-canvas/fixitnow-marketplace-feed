@@ -1,10 +1,10 @@
-import Home from '../pages/Home';
-import TaskCreate from '../pages/TaskCreate';
-import BrowsePros from '../pages/BrowsePros';
-import JobTracking from '../pages/JobTracking';
-import Messages from '../pages/Messages';
-import Profile from '../pages/Profile';
-import NotFound from '../pages/NotFound';
+import HomePage from '@/components/pages/HomePage';
+    import TaskCreatePage from '@/components/pages/TaskCreatePage';
+    import BrowseProsPage from '@/components/pages/BrowseProsPage';
+    import JobTrackingPage from '@/components/pages/JobTrackingPage';
+    import MessagesPage from '@/components/pages/MessagesPage';
+    import ProfilePage from '@/components/pages/ProfilePage';
+    import NotFoundPage from '@/components/pages/NotFoundPage';
 
 export const routes = {
   home: {
@@ -12,42 +12,48 @@ export const routes = {
     label: 'Home',
     path: '/',
     icon: 'Home',
-    component: Home
+icon: 'Home',
+        component: HomePage
   },
   taskCreate: {
     id: 'taskCreate',
     label: 'Create Task',
     path: '/task/create',
     icon: 'Plus',
-    component: TaskCreate
+icon: 'Plus',
+        component: TaskCreatePage
   },
   browsePros: {
     id: 'browsePros',
     label: 'Browse Pros',
     path: '/pros',
     icon: 'Users',
-    component: BrowsePros
+icon: 'Users',
+        component: BrowseProsPage
   },
   jobTracking: {
     id: 'jobTracking',
     label: 'Track Job',
     path: '/job/:id',
     icon: 'MapPin',
-    component: JobTracking
+icon: 'MapPin',
+        component: JobTrackingPage
   },
   messages: {
     id: 'messages',
     label: 'Messages',
     path: '/messages',
     icon: 'MessageCircle',
-    component: Messages
+icon: 'MessageCircle',
+        component: MessagesPage
   },
   profile: {
     id: 'profile',
     label: 'Profile',
     path: '/profile',
     icon: 'User',
-    component: Profile
+icon: 'User',
+        component: ProfilePage
   }
 };
 
